@@ -44,4 +44,10 @@ export default function pageload() {
     container.appendChild(menuUI)
 
 
+    //create container for pages
+    let activeContainer = document.createElement("div");
+    activeContainer.id = "activeContainer";
+
+    container.appendChild(activeContainer)
+
 }
