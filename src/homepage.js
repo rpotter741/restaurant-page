@@ -8,8 +8,6 @@ export default function renderHomepage() {
     homeContainer.id = "homeContainer";
     container.appendChild(homeContainer);
 
-    let logo = document.createElement("img");
-    logo.src = 'b88e652606a7fff08cc8.png';
-    homeContainer.appendChild(logo);
+
 
 }

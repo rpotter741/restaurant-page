@@ -48,17 +48,26 @@ body {
     display: flex;
     margin: auto;
     justify-content: center;
-    margin: 1rem;
-    gap: 1rem;
+    margin: auto;
+    gap: 4rem;
+    background-image: url('../beaverBrosLogo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 600px;
 }
 
 .navBtn {
-    background: rgb(30, 90, 30);
+    background: rgb(255,218,150);
     border-radius: .5rem;
     padding: .5rem;
-    color: aliceblue;
+    color: rgb(24,31,33);
     font-size: 18px;
     font-family: 'fantasy';
+    height: 2.5rem;
+    width: 6rem;
+    margin-top: 395px;
+    text-align: center;
 }
 
 /* home page styling */
@@ -70,9 +79,7 @@ body {
 }
 
 .logo {
-    background-image: url('../beaverBrosLogo.png');
-    height: 400px;
+    height: 800px;
     border-radius: 1rem;
-    background-size: contain;
-    background-repeat: no-repeat;
+  
 }
