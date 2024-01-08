@@ -8,41 +8,11 @@
 body {
     background-image: url('../wooden_background.png');
     background-size: cover;
+    position: relative;
     
 }
 
-/* header styling */
-
-.header {
-    margin: auto;
-    font-size: 44px;
-    font-weight: 700;
-    font-family: 'fantasy';
-    text-shadow: 0 0 4px aliceblue;
-
-}
-
-.subheader {
-    font-size: 30px;
-    font-weight: 500;
-    margin: auto;
-    font-family: 'fantasy';
-    font-style: italic;
-    text-shadow: 0 0 4px aliceblue;
-    
-}
-
-.headerBox {
-    display: flex;
-    flex-direction: column;
-    margin: 2rem;
-    width: 45%;
-    margin:auto;
-    background-color: rgba(250,250,250,.2);
-    border-radius: 1rem;
-
-
-}
+/* menu styling */
 
 .navMenu {
     display: flex;
@@ -55,6 +25,7 @@ body {
     background-repeat: no-repeat;
     height: 600px;
     width: 600px;
+    position: sticky
 }
 
 .navBtn {
@@ -76,10 +47,43 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgba(255,218,150,.5);
+    width: 800px;
+    margin: auto;
+    border: 4px solid rgb(24,31,33);
+    box-shadow: 0 0 1rem rgba(255,218,150);
+
 }
 
-.logo {
-    height: 800px;
-    border-radius: 1rem;
-  
+.headerBox {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    width: 800px;
+    margin:auto;       
 }
+    
+
+.subheader {
+    font-size: 48px;
+    font-weight: 700;
+    margin: auto;
+    font-family: 'fantasy';
+    font-style: italic;
+    color: rgb(24,31,33);
+    text-shadow:0 0 4px rgb(255,218,150);    
+}
+
+.primaryTextBox {
+    width: 800px;
+    font-size: 22px;
+    font-family: 'fantasy';
+    color: rgb(24,31,33);
+    text-align: center;
+}
+
+.caveat {
+    font-style: italic;
+    font-family: 'fantasy';
+}
+
