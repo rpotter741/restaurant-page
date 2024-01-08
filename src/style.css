@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'fantasy';
+    src: url('../Luminari-Regular.woff');
+}
+
+/* background image for the body */
+
+body {
+    background-image: url('../wooden_background.png');
+    background-size: cover;
+    
+}
+
+/* header styling */
+
+.header {
+    margin: auto;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: 'fantasy';
+    text-shadow: 0 0 4px aliceblue;
+
+}
+
+.subheader {
+    font-size: 30px;
+    font-weight: 500;
+    margin: auto;
+    font-family: 'fantasy';
+    font-style: italic;
+    text-shadow: 0 0 4px aliceblue;
+    
+}
+
+.headerBox {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    width: 40%;
+    margin:auto;
+    background-color: rgba(250,250,250,.2);
+    border-radius: 1rem;
+
+
+}
+
+.navMenu {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.navBtn {
+    background: rgb(30, 90, 30);
+    border-radius: .5rem;
+    padding: .5rem;
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'fantasy';
+}
+
+/* home page styling /*
